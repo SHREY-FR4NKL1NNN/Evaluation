@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Clone Repo'){
             steps{
-                bat 'git clone https://github.com/SHREY-FR4NKL1NNN/Evaluation.gitit'
+                bat 'git clone https://github.com/SHREY-FR4NKL1NNN/Evaluation.git'
             }
         }
         stage('Install Dependencies'){
