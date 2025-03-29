@@ -4,6 +4,7 @@ pipeline{
         stage('Clone Repo'){
             steps{
                 bat 'del Evaluation'
+                bat 'Y'
                 bat 'git clone https://github.com/SHREY-FR4NKL1NNN/Evaluation.git'
             }
         }
